@@ -53,7 +53,7 @@ struct LoginPage {
           let openID = response.openID;
           let unionID = response.unionID;
           hilog.info(0x0000, 'testTag', 'Succeed in getting response.');
-
+          promptAction.showToast({message: authorizationCode})
           // let response = await efRcpClientApi.post<TokenModel>({
           //   url: "https://oauth-login.cloud.huawei.com/oauth2/v3/token",
           //   query: {
@@ -76,6 +76,7 @@ struct LoginPage {
       })
       .onClickEvent((error: BusinessError, clickEvent: loginComponentManager.ClickEvent) => {
         if (error) {
+          promptAction.showToast({message: error.message})
           this.dealAllError(error);
           return;
         }
@@ -92,7 +93,7 @@ struct LoginPage {
       Column() {
         Column() {
           Column() {
-            Image($r('app.media.app_icon'))
+            Image($r('app.media.icon'))
               .width(48)
               .height(48)
               .draggable(false)
@@ -117,7 +118,7 @@ struct LoginPage {
                 top: 12,
               })
 
-            Text('应用描述')
+            Text('及时记录分析孩子成绩')
               .fontSize($r('sys.float.ohos_id_text_size_body2'))
               .fontColor($r('sys.color.ohos_id_color_text_secondary'))
               .fontFamily($r('sys.string.ohos_id_text_font_family_regular'))

@@ -6,9 +6,9 @@
         "type": "HarmonyOS",
         "material": {
           "certpath": "C:\\Users\\fando\\.ohos\\config\\default_APlus_7ANZ62I_9KXdjmuVvuDDkcOvMGao4Mcg9WoQYb3DfUs=.cer",
-          "storePassword": "0000001B2CBA8F3D94C50776C0BC33EDDB570525998F0405790F6B82809E166A647AAE692DFB4F5E61895C",
+          "storePassword": "0000001BBCAD37ACC5CF50A4BF9889C03B086C0F59269E67DAAA62E61B451EC4C9FE99D64156C399C71D9F",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B08101587453F02674DE5D8249108523DE26E1FB240C0B261D27BE105E4DD0C59167C4E9D97D262",
+          "keyPassword": "0000001B8ED4C09CB0C4955123F167A99C8BA8E58A2A9E64DA382D6EFAE506A8CC327E9CB4F159CEC425CA",
           "profile": "C:\\Users\\fando\\.ohos\\config\\default_APlus_7ANZ62I_9KXdjmuVvuDDkcOvMGao4Mcg9WoQYb3DfUs=.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "C:\\Users\\fando\\.ohos\\config\\default_APlus_7ANZ62I_9KXdjmuVvuDDkcOvMGao4Mcg9WoQYb3DfUs=.p12"
